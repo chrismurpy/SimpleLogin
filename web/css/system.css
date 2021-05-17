@@ -1,0 +1,65 @@
+body {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+#frame_head{
+    text-align: center;
+}
+
+
+.frame_class{
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.input_div {
+    padding-top: 5px;
+}
+
+fieldset {
+    border-width: 0;
+    width: 50%;
+    height: 50%;
+}
+
+.input_type{
+    width: 300px;
+    text-align: left;
+}
+
+.attr_label{
+    text-align: right;
+    line-height: 30px;
+    height: 30px;
+    width: 225px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.msg {
+    padding-top: 10px;
+    width: 200px;
+    line-height: 15px;
+    height: 15px;
+    font-size: 12px;
+    color: #999;
+}
+
+.input_button {
+    border-radius: 19px;
+    height: 30px;
+    width: 100px;
+}
+
+#button_center {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
+
+

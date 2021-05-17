@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/Validate.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/system.css" />
+</head>
+<body>
+    <form role="form" id="myForm" action="/test" method="post">
+        <div class="frame_class">
+            <fieldset>
+                <div id="frame_head">
+                    <h1>登录系统 <small>Welcome</small></h1>
+                    <hr/>
+                </div>
+                <div class="input_div form-group">
+                    <label class="attr_label col-sm-2 control-label" for="userName">账号：</label>
+                    <div class="has-warning">
+                        <input class="input_type col-sm-6 form-control" id="userName" type="text" name="userName"
+                               placeholder="USERNAME"><br/>
+                    </div>
+                    <label class="msg" id="nameMsg">请输入您的账号</label>
+                </div>
+                <div class="input_div form-group">
+                    <label class="attr_label col-sm-2 control-label" for="userPass">密码：</label>
+                    <div class="has-warning">
+                        <input class="input_type col-sm-6 form-control" id="userPass" type="password" name="userPass"
+                               placeholder="PASSWORD">
+                    </div>
+                    <label class="msg" id="passMsg">请输入您的密码</label>
+                </div>
+
+                <div class="input_div">
+                    <hr class="divider"/>
+                    <div id="button_center">
+                        <input class="input_button btn btn-success" type="submit" id="login_button"
+                               name="login_button" value="登录">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input class="input_button btn btn-default" type="reset" id="reset_button"
+                               name="reset_button" value="重置">
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
