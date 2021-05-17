@@ -17,5 +17,6 @@ public class UserTest {
         user = userDao.findByUser("murphymurphy");
         System.out.println(user.getUserName());
         System.out.println(user.getUserPass());
+        System.out.println("-----End-----");
     }
 }
